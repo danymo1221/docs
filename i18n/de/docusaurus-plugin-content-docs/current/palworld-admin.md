@@ -1,11 +1,11 @@
 ---
 id: palworld-admin
-title: Setup Admin
+title: "Palworld: Setup Admin"
 description: Informationen zum Einrichten und Hinzufügen von Administratoren für einen Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Setup Admin
 ---
 
-In dieser Anleitung werden wir uns ansehen, wie du deinen Server mit einem Admin-Passwort konfigurierst und dich selbst als Admin im Spiel hinzufügst. Dieses Passwort kann mit vertrauenswürdigen Spielern geteilt werden, um eine Reihe von Admin-Befehlen zu erhalten. Mehr über diese Serverbefehle erfährst du in unserem [Palworld Server Commands guide](palworld-server-commands.md).
+In dieser Anleitung werden wir uns ansehen, wie du deinen Server mit einem Admin-Passwort konfigurierst und dich selbst als Admin im Spiel hinzufügst. Dieses Passwort kann mit vertrauenswürdigen Spielern geteilt werden, um eine Reihe von Admin-Befehlen zu erhalten. Mehr über diese Serverbefehle erfährst du in unserem [Palworld Server Commands Anleitung](palworld-server-commands.md).
 
 ## Konfiguriere dein Admin-Passwort
 
@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 Suche im Bereich **Einstellungen** nach der Option **Gameserver Passwort**. Erstelle in diesem Feld ein Passwort, das du verwenden möchtest, und gib es ein.
 
@@ -61,14 +61,14 @@ Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei
 Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
 :::
 
-Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [FTP file access](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
 
 </TabItem>
 </Tabs>
 
 ## Sich als Admin einstellen
 
-Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzufügen. Starte Palworld und verbinde dich mit deinem Server. Wenn du dabei Hilfe brauchst, wirf einen Blick in unsere [Palworld Connect Anleitung](palworld-connect.md).
+Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzufügen. Starte Palworld und verbinde dich mit deinem Server. Wenn du dabei Hilfe brauchst, wirf einen Blick in unserer [Palworld mit dem Server verbinden Anleitung](palworld-connect.md).
 
 Öffne im Spiel den Chat mit "Enter". Gib dann den folgenden Befehl ein und ersetze dabei "Passwort" durch das Admin-Passwort, das du zuvor festgelegt hast:
 

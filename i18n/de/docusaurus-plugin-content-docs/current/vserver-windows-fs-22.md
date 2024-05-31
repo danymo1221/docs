@@ -1,21 +1,17 @@
 ---
 id: vserver-windows-fs-22
-title: Landwirtschafts-Simulator 2022 auf Windows installieren
-description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
+title: "vServer: Landwirtschafts-Simulator 2022 Dedicated Server Einrichtung"
+description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
 
 
 
-# Installation eines Dedicated Servers für den Landwirtschafts-Simulator 2022
+## Einführung
 
-:::info
-:information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](dedicated-windows.md).
-:::
+Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Landwirtschafts-Simulator 2019 Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-## Basic Informationen: 
-
-
+## Vorbereitung
 
 Es wird ein Server, basierend auf Windowsserver 2016/2019 mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
 Des Weiteren wird eine eigene GameLizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedicated Server nicht notwendig. 
@@ -87,6 +83,6 @@ Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit weni
 ## Schritt 5 Ports freischalten in der Firewall
 
 Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen zu können. Dazu müssen die Ports des Servers in der Windows Firewall freigeschaltet werden. Es müssen die Ports 10823 und 8080 freigegeben werden für das Protokoll TCP. 10823 ist dabei der Gameserver Port und 8080 ist der Webport für das Webinterface, der Webport muss nur bei Bedarf freigegeben werden, eine Verwaltung kann auch weiterhin nur lokal auf dem Windows Server erfolgen via RDP. 
-Wie Ports bei Windows freigeschaltet werden können, [erklären wir in diesem Guide](vserver-windows-port.md). 
+Wie Ports bei Windows freigeschaltet werden können, [erklären wir in dieser Anleitung](vserver-windows-port.md). 
 
 Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 

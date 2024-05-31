@@ -1,11 +1,11 @@
 ---
 id: vserver-linux-docker
-title: Installation von Docker
+title: "vServer: Installation von Docker"
 description: Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Docker installieren
 ---
 
-## Was ist Docker überhaupt?
+## Einführung
 
 Docker ist eine leichtgewichtige Open-Source Virtualisierungssoftware, um Dienste bzw. Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu richtigen virtuellen Maschinen wird hierfür kein extra Betriebssystem emuliert bzw. gehostet, sondern explizit nur eine Anwendungsumgebung innerhalb des Hostsystems. Das ist nicht nur allgemein Ressourcen sparend, sondern verursacht gleichzeitig im Vergleich zur Voll Virtualisierung einen niedrigen Overhead.
 

@@ -1,11 +1,11 @@
 ---
 id: webspace-adddomain
-title: Add a domain
+title: "Webspace: Add a domain"
 description: Information on how to add a domain to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add Domain
 ---
 
-## Webspace
+## Introduction
 
 The web space package offers the possibility to create and manage both websites and email addresses via the external Plesk interface. The web space acts as web storage. Files and folders can be uploaded via an FTP connection.
 

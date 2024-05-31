@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from '@docusaurus/router';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -17,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/firststeps-register">
+            to="/docs/welcome">
             Open Docs
           </Link>
         </div>
@@ -27,15 +28,21 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+//   const {siteConfig} = useDocusaurusContext();
+
+//   return (
+//     <Layout
+//       title={`Hello from ${siteConfig.title}`}
+//       description="Description will go into a meta tag in <head />">
+//       <HomepageHeader />
+//       <main>
+//         <HomepageFeatures />
+//       </main>
+//     </Layout>
+//   );
+// }
+
+return <Redirect to="docs/welcome" />;
+
 }
+

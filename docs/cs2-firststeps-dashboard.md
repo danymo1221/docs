@@ -1,6 +1,6 @@
 ---
 id: cs2-firststeps-dashboard
-title: Dashboard overview
+title: "Counter-Strike 2: Dashboard Overview"
 description: Information about the dashboard of an CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
@@ -131,17 +131,7 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
-
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guides               | Page                                                         |
-| -------------------- | ------------------------------------------------------------ |
-| Server configuration | [View guide](https://zap-hosting.com/guides/docs/cs2-configuration) |
-| CSTV                 | [View guide](https://zap-hosting.com/guides/docs/cs2-cstv)   |
-| Install plugins      | [View guide](https://zap-hosting.com/guides/docs/cs2-plugins) |
-
-
+![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
 
 ## Settings

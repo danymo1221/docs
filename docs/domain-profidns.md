@@ -1,10 +1,10 @@
 ---
 id: domain-profidns
-title: ProfiDNS
+title: "Domain: ProfiDNS"
 sidebar_label: ProfiDNS
 ---
 
-## What is ProfiDNS anyway?
+## Introduction
 
 With the **ProfiDNS function** you can create additional entries (records) for your domain, which you cannot do with the EasyDNS option or if you want to create the desired entries for your domain yourself.
 

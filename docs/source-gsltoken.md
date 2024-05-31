@@ -1,7 +1,7 @@
 ---
 id: source-gsltoken
 title: Using game server login tokens
-description: Information on how to create and use a login token for your Source gameserver from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: Information on how to create and use a login token for your Source game server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: GSL-Token
 ---
 
@@ -22,7 +22,7 @@ That's why this system has been implemented, which instead bans the token and bl
 
 ## ➕ Create token
 
-To create a gameserver login token, you need to be logged in to the Steam website. The Token can be created here: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers)
+To create a game server login token, you need to be logged in to the Steam website. The Token can be created here: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers)
 
 
 
@@ -50,7 +50,7 @@ Once this step is done and the server has been restarted, the server will also a
 
 ## ⁉ Frequently asked questions
 
-**What are the requirements for a GSL token?**
+**What are the prerequisites for a GSL token?**
 
 The Steam Account is not allowed to have a restriction like a community ban. In addition, a valid telephone number needs to be registered with the Steam Account.
 

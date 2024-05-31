@@ -1,20 +1,25 @@
 ---
 id: vserver-windows-vrising
-title: V-Rising auf Windows installieren
-description: Informationen, wie du einen V-Rising Server auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
+title: "vServer: V-Rising Dedicated Server Einrichtung"
+description: Informationen, wie du einen V-Rising Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: V-Rising
 ---
 
-# Installation eines V-Rising Servers
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-:::info
-Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](dedicated-windows.md).
-:::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/to2ghqNpGLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Basis Informationen
-Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 4 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen.  
+## Einführung
+
+Du hast einen Windows VPS oder Rootserver und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+
+<YouTube videoId="to2ghqNpGLA" title="How to setup a V RISING Dedicated Windows Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+
+## Vorbereitung
+Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 4 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen.  
+
+
 
 ## Step 1 Ordner erstellen für V-Rising
 
@@ -115,6 +120,6 @@ Soweit die Ports im folgenden Schritt korrekt freigegeben worden sind, kann der 
 ## Step 5 Ports freigeben
 
 Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen zu können. Dazu müssen die Ports des Servers in der Windows Firewall freigeschaltet werden. Die Ports 9876 und 9877 müssen für das Protokoll TCP UND UDP freigegeben werden.
-Wie Ports bei Windows freigeschaltet werden können, [erklären wir in diesem Guide](vserver-windows-port.md). 
+Wie Ports bei Windows freigeschaltet werden können, [erklären wir in dieser Anleitung](vserver-windows-port.md). 
 
 Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 

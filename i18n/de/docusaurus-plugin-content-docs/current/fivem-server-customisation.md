@@ -1,17 +1,16 @@
 ---
 id: fivem-server-customisation
-title: Customise server details
+title: "FiveM: Customise server details"
 description: Information on how to customise server details displayed in the server list for FiveM servers - ZAP-Hosting.com 
 sidebar_label: Customise Server Details
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung:
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zuWgjwb2-Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+## Einführung
 Du möchtest deinen Server so anpassen, dass er benutzerdefinierte Informationen in der Serverliste anzeigt? Das ist ganz einfach möglich! In dieser Anleitung erfährst du, wie du eine Reihe von verschiedenen Anpassungen vornehmen kannst, um deinen Server in der Serverliste hervorzuheben!
 
-
+<YouTube videoId="zuWgjwb2-Xs" title="How to add COLORED text to your FiveM Server name" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Zugriffsmöglichkeiten für die Konfiguration
 
@@ -59,8 +58,7 @@ Die letzte Möglichkeit, um auf die Datei zuzugreifen, ist per FTP. Wenn du mit 
 Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. Diese können durch die Verwendung eines Präfixes angegeben werden, wenn du die Farbe ändern möchtest. Die Liste der verfügbaren Farben findest du in der untenstehenden Tabelle.
 
 :::info
-Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Patreon Tier] (https://www.patreon.com/fivem/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, weitere Informationen findest du in unserem Leitfaden](fivem-licensekey.md) eingestellt hast.
-In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](fivem-licensekey.md).
+Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Patreon Tier] (https://www.patreon.com/fivem/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, weitere Informationen findest du in unserer Anleitung](fivem-licensekey.md) eingestellt hast.
 :::
 
 Nun kannst du den Namen deines Servers ändern, indem du eine der drei Methoden anwendest, die im Abschnitt Zugriff auf die Konfiguration beschrieben sind. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis:

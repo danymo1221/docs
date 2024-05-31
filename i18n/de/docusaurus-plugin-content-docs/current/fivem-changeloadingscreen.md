@@ -1,6 +1,6 @@
 ---
 id: fivem-changeloadingscreen
-title: Loadingscreen für FiveM-Server installieren/ändern
+title: "FiveM: Loadingscreen für FiveM-Server installieren/ändern"
 description: Informationen, wie du neue Loadingscreens auf einem FiveM Server von ZAP-Hosting hinzufügen/ändern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Loadingscreen installieren
 
@@ -12,7 +12,7 @@ Um deinen Loadingscreen zu installieren, musst du erstmal einen von den [FiveM F
 
 ![image](https://user-images.githubusercontent.com/13604413/159137969-1093e207-da3b-442d-9e98-c2eb848f80d7.png)
 
-Nun verbindest du dich via FTP mit deinem FiveM Server und lädst diesen in den Resourcen Ordner hoch.
+Nun verbindest du dich via FTP mit deinem FiveM Server und lädst diesen in den Ressourcen Ordner hoch.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137976-99390bc4-108c-477f-8baf-d4945a7b3fe6.png)
 

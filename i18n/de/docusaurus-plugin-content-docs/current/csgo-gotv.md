@@ -1,6 +1,6 @@
 ---
 id: csgo-gotv
-title: Server Informationen zu GOTV
+title: "CSGO: Server Informationen zu GOTV"
 description: Informationen zu GOTV auf Counter-Strike Go-Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: GOTV
 
@@ -37,7 +37,7 @@ connect SERVERIP:27020
 
 
 
-Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: https://docs.zap-hosting.com/docs/de/gameserver-ftpaccess/
+Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
 
 
 

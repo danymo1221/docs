@@ -1,13 +1,15 @@
 ---
 id: palworld-configuration
-title: Palworld Server Configuration
-description: Information about configuring a Palworld gameserver from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "Palworld: Palworld Server Configuration"
+description: Information about configuring a Palworld game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 ---
 
-Palworld servers come with a wide range of configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Introduction
+Palworld servers come with a wide range of configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
+<YouTube videoId="Trs9Ysxa1gc" title="Setup Palworld server in just a MINUTE! " description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Accessing your Configuration File
 
@@ -21,9 +23,9 @@ import TabItem from '@theme/TabItem';
 
 #### Via Webinterface
 
-The most user-friendly method is by heading over to the **Settings** section on your gameserver's webinterface and searching for the appropriate settings there, as seen below:
+The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 </TabItem>
 
 <TabItem value="configs" label="Via WI Config file">
@@ -34,7 +36,7 @@ The most user-friendly method is by heading over to the **Settings** section on 
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
+Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
@@ -51,7 +53,7 @@ This will open up a text editor directly on the site to enable you to edit it.
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 </TabItem>
 </Tabs>
@@ -63,7 +65,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 These are server configuration options which are essential for customising your server's listing, protecting it through passwords and more internal settings.
 
 :::tip
-We do not recommending changing the Port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver!
+We do not recommending changing the Port or IP settings, as these are automatically configured by the game server. Changing the IP/Port values may potentially break your game server!
 :::
 
 | Parameter Name                 | Example                                 | Description                                                 |

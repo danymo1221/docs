@@ -1,6 +1,6 @@
 ---
 id: cs2-firststeps-dashboard
-title: Dashboard Übersicht
+title: "Counter-Stike 2: Dashboard Übersicht"
 description: Informationen zum Dashboard eines CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -11,7 +11,7 @@ sidebar_label: Dashboard
 
 Du bist an einem **CS2 Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **CS2 Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **CS2 Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -128,15 +128,15 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 Zu deinem Produkt bieten wir ebenfalls Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
 
 | Anleitungen          | Seite                                                        |
 | -------------------- | ------------------------------------------------------------ |
-| Server configuration | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-configuration/) |
-| CSTV                 | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-cstv) |
-| Install plugins      | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-plugins) |
+| Server configuration | [Anleitung aufrufen](cs2-configuration/) |
+| CSTV                 | [Anleitung aufrufen](cs2-cstv) |
+| Install plugins      | [Anleitung aufrufen](cs2-plugins) |
 
 
 

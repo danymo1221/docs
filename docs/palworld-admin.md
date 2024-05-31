@@ -1,13 +1,16 @@
 ---
 id: palworld-admin
-title: Setup Admin
+title: "Palworld: Setup Admin"
 description: Information about setting up and adding yourself as admin for a Palworld server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Setup Admin
 ---
 
-In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Palworld Server Commands guide](palworld-server-commands.md).
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##Introduction
+In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Palworld Server Commands guide](palworld-server-commands.md).
+<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Configuring your Admin password
 
@@ -21,9 +24,9 @@ import TabItem from '@theme/TabItem';
 
 #### Via Webinterface
 
-The most user-friendly method is by heading over to the **Settings** section on your gameserver's webinterface.
+The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 In the **Settings** area, search for the **Game server password** option. In this field, create a password that you wish to use and input it.
 
@@ -45,7 +48,7 @@ Once you have a password selected, scroll up and ensure you press the green **Sa
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
+Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
@@ -63,7 +66,7 @@ This will open up a text editor directly on the site to enable you to edit it. F
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 </TabItem>
 </Tabs>

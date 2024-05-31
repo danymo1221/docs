@@ -1,6 +1,6 @@
 ---
 id: mta-becomeadmin
-title: Admin auf MTA-Server werden
+title: "Multi Theft Auto: Admin auf MTA-Server werden"
 description: Informationen, wie du dich zum Admin auf deinem MTA-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 
@@ -35,7 +35,7 @@ Die Live Konsole kann beim Gameserver Dashboard im Interface gefunden werden, we
 
 ### Konfiguration
 
-Nachdem der Account angelegt wurde, muss in der **acl.xml** Config nun noch der Account in der Admin-Gruppe hinzugefügt werden. Hierfür verbinden wir uns per FTP mit dem Server und öffnen die Datei. Diese befindet sich in **gXXXX/gtamta/mods/deathmatch/**. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](https://docs.zap-hosting.com/docs/de/gameserver-ftpaccess/)
+Nachdem der Account angelegt wurde, muss in der **acl.xml** Config nun noch der Account in der Admin-Gruppe hinzugefügt werden. Hierfür verbinden wir uns per FTP mit dem Server und öffnen die Datei. Diese befindet sich in **gXXXX/gtamta/mods/deathmatch/**. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](https://docs.zap-hosting.com/docs/gameserver-ftpaccess.md)
 
 ```
 <group name="Admin">

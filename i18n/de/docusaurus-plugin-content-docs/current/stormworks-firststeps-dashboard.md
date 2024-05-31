@@ -1,6 +1,6 @@
 ---
 id: stormworks-firststeps-dashboard
-title: Stormworks Dashboard Übersicht
+title: "Stormworks: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Stormworks  Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -11,7 +11,7 @@ sidebar_label: Dashboard
 
 Du bist an einem **Stormworks  Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Stormworks  Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Stormworks  Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -94,7 +94,7 @@ Die **Ereignislog** bietet dir einen umfassenden Überblick über sämtliche Akt
 
 Die **Live-Konsole** bietet dir eine Echtzeit-Ansicht aller aktuellen Ereignisse auf deinem Server. Hier kannst du sowohl Informationen zu den Aktivitäten der Spieler als auch mögliche Fehlermeldungen und Systemnachrichten einsehen. Diese Übersicht ermöglicht es dir, einen umfassenden Einblick in das Geschehen auf deinem Server zu erhalten und eventuelle Probleme frühzeitig zu erkennen.
 
-> Screenshot einfügen
+![img](https://screensaver01.zap-hosting.com/index.php/s/bDqw5G9fLi5mxAg/preview)
 
 Zusätzlich zur Beobachtung der Ereignisse kannst du in der **Live-Konsole** auch direkt Befehle an den Server senden. Dies kann nützlich sein, um Einstellungen anzupassen, bestimmte Aktionen auszuführen oder um schnell auf auftretende Probleme zu reagieren.
 
@@ -120,7 +120,7 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 

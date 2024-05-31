@@ -1,16 +1,20 @@
 ---
 id: vserver-linux-cockpit
-title: Installation von Cockpit
-description: Guide, um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentation
+title: "vServer: Installation von Cockpit"
+description: Informationen, um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentation
 sidebar_label: Cockpit installieren
 ---
+
+
+
+## Einführung
 
 Cockpit ist ein Webinterface, um einen oder mehrere Linux Server (Cluster) zu verwalten. Von einfachen Log-Ausgaben bis hin zum Verwalten des Raids bietet Cockpit sehr viele Features. 
 Cockpit eignet sich für Einsteiger, aber auch für Fortgeschrittene, die gerne in kurzer Zeit alles Wichtige einsehen/managen möchten. Zudem kann ein Zugriff von fast jedem Endgerät erfolgen.
 Die Projektwebseite ist unter https://cockpit-project.org/ erreichbar. 
 
 :::info
-In diesem Guide wird die Installation bei Debian (ab Buster)/ bei Ubuntu (ab Bionic Beaver) erklärt. Die Installation ist auf der Projektseite ebenfalls für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Archlinux und Tumbleweed verfügbar.   
+In dieser Anleitung wird die Installation bei Debian (ab Buster)/ bei Ubuntu (ab Bionic Beaver) erklärt. Die Installation ist auf der Projektseite ebenfalls für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Archlinux und Tumbleweed verfügbar.   
 :::
 
 ## Installation

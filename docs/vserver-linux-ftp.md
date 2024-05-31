@@ -1,11 +1,11 @@
 ---
 id: vserver-linux-ftp
-title: FTP service does not work - Troubleshooting
+title: "VPS: FTP service does not work - Troubleshooting"
 description: Information on how to fix FTP problems on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP Service isn't working
 ---
 
-## What can you do if the gameserver or teamspeak server is not accessible via FTP?
+## What can you do if the game server or teamspeak server is not accessible via FTP?
 
 :::info
 Attention: The following steps only work on your own VPS/Root Server if the ZAP web interface has been installed!

@@ -1,17 +1,16 @@
 ---
 id: vserver-windows-arksurvivalascended
-title: ARK Survival Ascended Dedicated Server Setup
-description: Information about setting up an ARK Survival Ascended Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com documentation
-sidebar_label: ARK Survival Ascended Dedicated Server Setup
+title: "VPS: ARK Survival Ascended Dedicated Server Setup"
+description: Information about setting up an ARK Survival Ascended Dedicated Server on a VPS/Root server/Dedicated Server - ZAP-Hosting.com documentation
+sidebar_label: ARK Survival Ascended
 ---
 
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NvaXYjLSCn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
+Do you have a Windows VPS or root server and you want to install the ARK: Survival Ascended Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-Do you have a Windows VPS or rootserver and you want to install an ARK: Survival Ascended Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
+<YouTube videoId="NvaXYjLSCn8" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Preparation
 
@@ -152,10 +151,10 @@ If before 18 November 2023 server owners installed the r2m02.cer certificate fil
 
 ## Starting & Connecting to your server
 
-Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) to your Windows VPS.
+Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) to your Windows VPS.
 
 :::info
-You must install [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) onto your Windows VPS before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
+You must install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) onto your Windows VPS before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
 :::
 
 Once you have this installed on your VPS, you can proceed towards starting the server by executing the **start-ark.bat** file you created previously.

@@ -1,13 +1,16 @@
 ---
 id: palworld-configuration
-title: Palworld Server-Konfiguration
+title: "Palworld: Palworld Server-Konfiguration"
 description: Informationen zur Konfiguration eines Palworld Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Konfiguration
 ---
 
-Palworld-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Einführung
+Palworld-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+
+<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ## Zugriff auf deine Konfigurationsdatei
 
@@ -23,7 +26,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 </TabItem>
 

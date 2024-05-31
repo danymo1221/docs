@@ -1,6 +1,6 @@
 ---
 id: assettocorsa-firststeps-dashboard
-title: Dashboard overview
+title: "Assetto Corsa: Dashboard Overview"
 description: Information about the dashboard of an Assetto Corsa server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
@@ -125,18 +125,7 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
-
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guide                                 | Page                                                         |
-| ------------------------------------- | ------------------------------------------------------------ |
-| Configure Server                      | [View guide](assettocorsa-configure.md) |
-| Configure Server with Content Manager | [View guide](assettocorsa-contentmanager.md) |
-| Install Mods                          | [View guide](assettocorsa-mods.md) |
-<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
-
-
+![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
 
 ## Settings

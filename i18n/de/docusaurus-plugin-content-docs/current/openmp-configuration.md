@@ -1,11 +1,11 @@
 ---
 id: openmp-configuration
-title: Open.mp Server-Konfiguration
+title: "Open.mp: Open.mp Server-Konfiguration"
 description: Informationen zur Konfiguration eines Open.mp Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Konfiguration
 ---
 
-Open.mp-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+Open.mp-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
 
 ## Zugriff auf deine Konfigurationsdatei
 
@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode, um die Grundeinstellungen zu bearbeiten, ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 Denke daran, dass nicht alle Konfigurationsoptionen hier zugänglich sind. Wenn du alles konfigurieren möchtest, benutze den Reiter **WI-Konfigurationsdatei**, um die notwendige Datei direkt im Webinterface zu bearbeiten.
 
@@ -52,7 +52,7 @@ Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei
 Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
 :::
 
-Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [FTP file access](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du die Dateiinhalte direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du die Dateiinhalte direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
 
 Wenn du über deinen FTP-Client eingeloggt bist, gehe in das folgende Verzeichnis und ersetze `[zap_id]` durch deine eigene ZAP-ID:
 ```
@@ -106,7 +106,7 @@ Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entspr
 
 Open.mp verfügt über eine Vielzahl von Gameplay- und Netzwerkoptionen, mit denen du deinen Server in hohem Maße anpassen kannst. Hier fassen wir ein paar der wichtigsten zusammen. Du musst diese Optionen in deiner Konfigurationsdatei finden. Das geht ganz einfach, indem du mit `CTRL+F` in deinem Browser oder deinem Bearbeitungsprogramm suchst.
 
-Wenn du alle Einstellungen vornehmen möchtest, empfehlen wir dir die Lektüre des [open.mp's config.json guide](https://www.open.mp/docs/server/config.json), in dem alle derzeit verfügbaren Konfigurationsoptionen aufgeführt sind.
+Wenn du alle Einstellungen vornehmen möchtest, empfehlen wir dir die [open.mp's config.json Anleitung](https://www.open.mp/docs/server/config.json), in dem alle derzeit verfügbaren Konfigurationsoptionen aufgeführt sind.
 
 :::tip
 Wir raten davon ab, die Port- oder IP-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du die IP/Port-Werte änderst, kann dein Gameserver kaputt gehen!

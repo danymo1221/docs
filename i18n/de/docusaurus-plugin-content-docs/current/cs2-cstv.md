@@ -1,6 +1,6 @@
 ---
 id: cs2-cstv
-title: CSTV
+title: "CS2: CSTV"
 description: Informationen über CSTV zu CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: CSTV
 ---
@@ -65,7 +65,7 @@ connect SERVERIP:27020 (Beispiel Port, schaue unter den Einstellungen nach deine
 
 
 
-Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx/cs2/game/csgo) des CS2 Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: https://docs.zap-hosting.com/docs/de/gameserver-ftpaccess/
+Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx/cs2/game/csgo) des CS2 Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
 
 
 

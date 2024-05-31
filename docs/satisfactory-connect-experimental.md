@@ -1,6 +1,6 @@
 ---
 id: satisfactory-connect-experimental
-title: Connect to the Server (Experimental)
+title: "Satisfactory: Connect to the Server (Experimental)"
 description: Information on how to connect to your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the Server (Experimental)
 ---
@@ -17,7 +17,7 @@ Launch Satisfactory then navigate to the "Server-Manager" tab
 
 ***
 
-Press on "Add Server" to add your gameserver.
+Press on "Add Server" to add your game server.
 
 ![](https://user-images.githubusercontent.com/61839701/164882476-410b461f-9a1b-4e04-9350-91fbb9809fd8.png)
 

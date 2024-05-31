@@ -1,11 +1,11 @@
 ---
 id: domain-expertdns
-title: ExpertDNS
+title: "Domain: ExpertDNS"
 description: Information about the ExpertDNS domain settings at ZAP-Hosting - ZAP-hosting.com documentation
 sidebar_label: ExpertDNS
 ---
 
-## What is ExpertDNS anyway?
+## Introduction
 
 With the **ExpertDNS function** you can set which name servers should be used for the domain.
 

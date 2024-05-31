@@ -1,6 +1,6 @@
 ---
 id: conan-configuration
-title: Configure your own server
+title: "Conan Exiles: Configure your own server"
 description: Information on how to configure your Conan Exiles server from ZAP-Hosting via the web interface - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 
@@ -8,7 +8,7 @@ sidebar_label: Server Configuration
 
 ## Server Configuration
 
-Conan Exiles servers can be configured extensively. The configuration of the server takes place via the config files. You can find them in the webinterface in the gameserver administration under Configs. To do so, open the **ServerSettings.ini** config file.
+Conan Exiles servers can be configured extensively. The configuration of the server takes place via the config files. You can find them in the webinterface in the game server administration under Configs. To do so, open the **ServerSettings.ini** config file.
 
 
 

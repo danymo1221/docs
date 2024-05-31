@@ -1,24 +1,16 @@
 ---
 id: vserver-windows-satisfactory
-title: Satisfactory Dedicated Server Setup
+title: "VPS: Satisfactory Dedicated Server Setup"
 description: Information about setting up a Satisfactory Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
-sidebar_label: Satisfactory Dedicated Server Setup
+sidebar_label: Satisfactory
 ---
 
-
-
-Got a Windows VPS or root server and want to install game servers on it? For example an Satisfactory Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rqtQJa_awGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
+Got a VPS, root server or dedicated server and want to install game servers on it? For example an Satisfactory Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-Connect to your VPS or root server via RDP to set up your Satisfactory  Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
-
+<YouTube videoId="rqtQJa_awGw" title="Satisfactory Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 ## Preparation

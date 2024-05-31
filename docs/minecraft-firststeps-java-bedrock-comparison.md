@@ -1,6 +1,6 @@
 ---
 id: minecraft-firststeps-java-bedrock-comparison
-title: Java / Bedrock Comparison
+title: "Minecraft: Java / Bedrock Comparison"
 description: Information on the similarities and differences between Minecraft Java and Bedrock edition game versions - ZAP-Hosting.com documentation
 sidebar_label: Java vs Bedrock
 ---
@@ -22,7 +22,7 @@ Here is a table which explains some basic information about both Minecraft versi
 
 ## Platforms
 
-The most important question people ask when starting to play Minecraft is: "On which device can I play?". Minecraft *Java* edition, the original game, can only be played on Windows, macOS, and Linux and has higher system requirements (especially if you start adding [shaders and other mods](#customization-and-modding)), while Minecraft *Bedrock* edition can be played on almost all devices, from phones to computers and consoles, with full cross-platform capabilities.
+The most important question people ask when starting to play Minecraft is: "On which device can I play?". Minecraft *Java* edition, the original game, can only be played on Windows, macOS, and Linux and has higher system prerequisites (especially if you start adding [shaders and other mods](#customization-and-modding)), while Minecraft *Bedrock* edition can be played on almost all devices, from phones to computers and consoles, with full cross-platform capabilities.
 
 ## Updates
 
@@ -40,10 +40,10 @@ Do you want to have a 24/7 open world you and others can play on? Both Minecraft
 
 When booting up the game for the first time, a common trend is for players to edit their skins. These can be custom-made with online tools or bought from the [Minecraft Marketplace](https://www.minecraft.net/en-us/marketplace) (*Minecraft Bedrock Edition's* in-game store) using Minecoins (a virtual currency you can buy). For *Java*, you can find a range of free sites with skins or design your own, and upload it to your *Java* edition account via the **Minecraft Launcher**, through the `Skins` tab or use one of the default ones found in this area.
 
-*Java* is more open to modders and has a couple of different "launchers" (for example, [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) & [Fabric](https://fabricmc.net/use/installer/)) allowing for some interesting new content and mods to be added and maintained by the community. For further insights about the vast field of *Java* edition modding, take a look at our [installing mods and modpack](https://zap-hosting.com/guides/docs/minecraft-forge-fabric-add-mods-modpacks) guide, which covers this well.
+*Java* is more open to modders and has a couple of different "launchers" (for example, [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) & [Fabric](https://fabricmc.net/use/installer/)) allowing for some interesting new content and mods to be added and maintained by the community. For further insights about the vast field of *Java* edition modding, take a look at our [installing mods and modpack](minecraft-forge-fabric-add-mods-modpacks.md) guide, which covers this well.
 
 *Bedrock* provides a way for easier installation of custom maps, texture packs and game modes via their [store](https://www.minecraft.net/en-us/catalog) directly.
 
 ## Conclusion
 
-We hope this guide helped you gain more knowledge about this wonderful game and decide which version you'll begin exploring the vast open world on. Luckily, if you are still debating which to pick, our [fantastic gameservercloud game switcher](https://zap-hosting.com/guides/docs/gameserver-gameswitch) allows you to quickly and easily switch the game on your gameserver, which means you can easily try out both!
+We hope this guide helped you gain more knowledge about this wonderful game and decide which version you'll begin exploring the vast open world on. Luckily, if you are still debating which to pick, our [fantastic gameservercloud game switcher](gameserver-gameswitch.md) allows you to quickly and easily switch the game on your game server, which means you can easily try out both!

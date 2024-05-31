@@ -1,11 +1,11 @@
 ---
 id: domain-easydns
-title: EasyDNS
+title: "Domain: EasyDNS"
 description: Informationen zu den EasyDNS Domaineinstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: EasyDNS
 ---
 
-## Was ist EasyDNS überhaupt?
+## Einführung
 
 Mit der **EasyDNS Funktion** kann die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf demselben Account mit einem Klick eingestellt werden.
 

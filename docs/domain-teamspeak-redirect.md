@@ -1,15 +1,15 @@
 ---
 id: domain-teamspeak-redirect
-title: Domain TeamSpeak 3 forwarding setup
+title: "Domain: Set up TeamSpeak 3 forwarding"
 description: Information on how to set up a forwarding from a domain to a TS server at ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Domain TeamSpeak 3 Redirect
+sidebar_label: TeamSpeak 3 forwarding
 ---
 
 :::info
 Please note that it can always take up to 24 hours before changes to DNS entries become active!
 :::
 
-## Forward domain to your TeamSpeak 3 server
+## Introduction
 
 You can either redirect your entire domain or just a subdomain to your TeamSpeak 3 server.
 This way, no one has to remember the complicated IP address consisting of numbers and can simply connect to your TeamSpeak 3 server using the domain.
@@ -37,8 +37,6 @@ Please note, it can take up to 3 hours for the domain to propagate and start fun
 :::
 
 ## Regular DNS setup
-
-### Before we start creating entries in the DNS settings of the domain, here is some information in advance:
 
 To forward the IP address, either create a subdomain that redirects to the IP address of the TeamSpeak 3 server, or forward the entire domain without a subdomain.
 This would be sufficient if the TeamSpeak 3 server uses the default port **9987**.

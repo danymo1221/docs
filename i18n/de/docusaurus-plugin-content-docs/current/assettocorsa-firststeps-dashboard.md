@@ -1,6 +1,6 @@
 ---
 id: assettocorsa-firststeps-dashboard
-title: Dashboard Übersicht
+title: "Assetto Corsa: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Assetto Corsa Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---
@@ -11,7 +11,7 @@ sidebar_label: Dashboard
 
 Du bist an einem **Assetto Corsa Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Assetto Corsa Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Assetto Corsa Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -104,18 +104,7 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
-
-Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen                              | Seite                                                        |
-| ---------------------------------------- | ------------------------------------------------------------ |
-| Server konfigurieren                     | [Anleitung aufrufen](assettocorsa-configure.md) |
-| Server konfigurieren mit Content Manager | [Anleitung aufrufen](assettocorsa-contentmanager.md) |
-| Mods installieren                        | [Anleitung aufrufen](assettocorsa-mods.md) |
-<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
-
-
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 ## Einstellungen

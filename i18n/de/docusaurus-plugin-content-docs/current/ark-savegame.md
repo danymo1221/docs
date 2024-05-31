@@ -1,22 +1,17 @@
 ---
 id: ark-savegame
-title: Eigenes Savegame (Welt) importieren
+title: "ARK: Eigenes Savegame (Welt) importieren"
 description: Informationen, wie du ein eigenes Savegame bei deinem ARK-Server von ZAP-Hosting importieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegame (Welt) importieren
 ---
 
-
-
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lvIIVOhAUjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
 
-Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved-Server importieren? In diesem Leitfaden erfährst du, wie du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen neuen Server importierst.
+Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved-Server importieren? In dieser Anleitung erfährst du, wie du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen neuen Server importierst.
 
+<YouTube videoId="lvIIVOhAUjo" title="How to get an ARK:SE Server with Official Server Backups" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 
 ## Bereite deine Speicherdatei vor
@@ -55,7 +50,7 @@ Hierfür solltest du die reguläre **Ark: SE** Gameserver-Variante (ohne die off
 
 Sobald du deine `.zip`-Speicherdatei heruntergeladen hast, musst du sie mit einem Programm wie 7zip oder Winrar entpacken. Der Upload ist für beide Arten von Gameservern und Spieldateien derselbe.
 
-Jetzt musst du über FTP auf deinen Server zugreifen, um deine Spieldateien hochzuladen. Bitte benutze unsere Anleitung [FTP-Zugang](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/), wenn du Hilfe beim Einloggen über deinen bevorzugten FTP-Client und beim Übertragen von Dateien benötigst.
+Jetzt musst du über FTP auf deinen Server zugreifen, um deine Spieldateien hochzuladen. Bitte benutze unsere Anleitung [FTP-Zugang](gameserver-ftpaccess.md), wenn du Hilfe beim Einloggen über deinen bevorzugten FTP-Client und beim Übertragen von Dateien benötigst.
 
 Wenn du deinen FTP-Client geöffnet hast, gehe in das folgende Unterverzeichnis deines Gameservers:
 ```

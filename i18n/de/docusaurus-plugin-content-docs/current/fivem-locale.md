@@ -1,6 +1,6 @@
 ---
 id: fivem-locale
-title: Sprache / Standort (Flagge) ändern
+title: "FiveM: Sprache / Standort (Flagge) ändern"
 description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem FiveM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache / Standort (Flagge)
 ---
@@ -33,22 +33,22 @@ Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Lände
 
 | Land           | Sprache        | Locale |
 | -------------- | -------------- | ------ |
-| Deutschland    | Deutsch        | de_DE  |
-| USA            | Englisch       | en_US  |
-| Canada         | Englisch       | en_CA  |
-| Australien     | Englisch       | en_AU  |
-| United Kingdom | Englisch       | en_GB  |
-| Finnland       | Finnisch       | fi_FI  |
-| Frankreich     | Französisch    | fr_FR  |
-| Niederlande    | Niederländisch | nl_NL  |
-| Portugal       | Portugiesisch  | pt_PT  |
-| Brasilien      | Portugiesisch  | pt_BR  |
-| Spanien        | Spanisch       | es_ES  |
-| Singapur       | Englisch       | en_SG  |
+| Deutschland    | Deutsch        | de-DE  |
+| USA            | Englisch       | en-US  |
+| Canada         | Englisch       | en-CA  |
+| Australien     | Englisch       | en-AU  |
+| United Kingdom | Englisch       | en-GB  |
+| Finnland       | Finnisch       | fi-FI  |
+| Frankreich     | Französisch    | fr-FR  |
+| Niederlande    | Niederländisch | nl-NL  |
+| Portugal       | Portugiesisch  | pt-PT  |
+| Brasilien      | Portugiesisch  | pt-BR  |
+| Spanien        | Spanisch       | es-ES  |
+| Singapur       | Englisch       | en-SG  |
 
 :::caution 
 
-Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! 
+Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Ressourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! 
 
 :::
 

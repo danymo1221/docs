@@ -1,6 +1,6 @@
 ---
 id: 7d2d-firststeps-dashboard
-title: Dashboard overview
+title: "7 Days to Die: Dashboard Overview"
 description: Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
@@ -109,9 +109,7 @@ The **Event Log** provides you with a comprehensive overview of all activities r
 
 The **Live Console** offers you a real-time view of all current events on your server. Here you can see information about the activities of the players as well as possible error messages and system messages. This overview allows you to get a comprehensive view of what is happening on your server and to detect possible problems at an early stage.
 
-:::info
-Screenshot einfügen
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
 
 Additionally to monitoring the events, you can also send commands directly to the server in the **Live Console**. This can be useful to adjust settings, perform certain actions, or respond quickly to problems that arise.
 
@@ -137,18 +135,7 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
-
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guide        | Page                                                         |
-| ------------ | ------------------------------------------------------------ |
-| Become admin | [View guide](7d2d-becomeadmin.md) |
-| Install Mods | [View guide](7d2d-mods.md) |
-| Commands     | [View guide](7d2d-commands.md) |
-<p style={{textAlign: 'center'}} >List updated last on 03.05.2023</p>
-
-
+![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
 
 ## Settings

@@ -1,13 +1,13 @@
 ---
 id: beammp-mods
-title: Mods installieren
+title: "BeamMP: Mods installieren"
 description: Information, wie du Mods auf deinem BeamMP Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 ---
 
 ## Wo bekomme ich Mods her?
 Da BeamMP auf BeamNG basiert, funktionieren also die Mods davon auch auf deinem BeamMP-Server
-Es gibt verschiedene Orte wo Mods gefunden werden können, die offizielle Resourcenseite findest du bei beamng.com/resources
+Es gibt verschiedene Orte wo Mods gefunden werden können, die offizielle Ressourcenseite findest du bei beamng.com/resources
 
 
 ## Hochladen der Daten

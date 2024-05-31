@@ -1,17 +1,17 @@
 ---
 id: vserver-windows-palworld
-title: Palworld Dedicated Dedicated Server Einrichtung
+title: "vServer: Palworld Dedicated Server Einrichtung"
 description: Informationen zur Einrichtung eines Palworld Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
-sidebar_label: Palworld Dedicated Server Einrichtung
+sidebar_label: Palworld
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/thn0wDE5LDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Einleitung
+## Einführung
 
 Du hast einen Windows VPS oder Rootserver und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+
+<YouTube videoId="thn0wDE5LDg" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Vorbereitung
 
@@ -106,7 +106,7 @@ Wechsle zunächst in das folgende Verzeichnis:
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. Im [Palworld Server-Konfiguration guide](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
+Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. In der [Palworld Server-Konfiguration Anleitung](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
 
 :::note
 Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du auch die Standardeinstellungen aus dem Pfad `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren und verwenden.

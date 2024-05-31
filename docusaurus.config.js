@@ -34,6 +34,16 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
+    localeConfigs: {
+      en: {
+        label: 'EN',
+        htmlLang: 'en-US',
+      },
+      de: {
+        label: 'DE',
+        htmlLang: 'de-DE',
+      },
+    },
   },
   plugins: [
     [
@@ -95,6 +105,33 @@ const config = {
         ],
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/docs/contribution-guides',
+            from: '/docs/contribution-submission',
+          },
+          {
+            to: '/docs/contribution-guides-guidelines',
+            from: '/docs/contribution-guidelines',
+          },
+          {
+            to: '/docs/vserver-root-difference',
+            from: '/docs/vserver-root-unterschied',
+          },
+          // Redirect from multiple old paths to the new path
+          /*{
+            to: '/docs/newDoc2',
+            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          },*/
+        ],
+      },
+    ],
     [ 
       require.resolve('docusaurus-lunr-search'),
       {
@@ -111,7 +148,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/zaphosting/docs/tree/master/',
-          editLocalizedFiles: true
+          editLocalizedFiles: true,
+          showLastUpdateTime: true
         },
         blog: false,
         theme: {
@@ -123,7 +161,9 @@ const config = {
   
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-  ({
+  (
+    
+    {
     // Replace with your project's social card
     //image: 'img/docusaurus-default/docusaurus-social-card.jpg',
     image: undefined,
@@ -136,7 +176,7 @@ const config = {
     navbar: {
       title: 'ZAP-Hosting Docs',
       logo: {
-        href: "/docs/firststeps-register",
+        href: "/docs/welcome",
         alt: 'ZAP-Hosting',
         src: 'img/src.png',
         srcDark: 'img/srcDark.png'
@@ -317,6 +357,14 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH & Co. KG`,
     },
+    // announcementBar: {
+    //   id: 'support_us',
+    //   content:
+    //     'Placeholder',
+    //   backgroundColor: 'green',
+    //   textColor: 'white',
+    //   isCloseable: false,
+    // },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,

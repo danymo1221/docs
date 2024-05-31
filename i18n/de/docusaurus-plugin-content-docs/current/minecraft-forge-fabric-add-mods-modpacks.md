@@ -1,6 +1,6 @@
 ---
 id: minecraft-forge-fabric-add-mods-modpacks
-title: Installation von Mods / Modpacks
+title: "Minecraft: Installation von Mods / Modpacks"
 description: Informationen über die Installation von Mods / Modpacks auf deinem Minecraft Forge Server von ZAP-Hosting.com - ZAP-Hosting.com Dokumentation
 sidebar_label: Installation von Mods / Modpacks
 ---
@@ -13,7 +13,7 @@ Klicken hier, um zu unseren Minecraft-Servern zu gelangen:  [Minecraft Server Ho
 
 - Ein [Gameserver](https://zap-hosting.com/de/gameserver-hosting/)
 - Ein FTP-Client ( wie zum Beispiel WinSCP, FileZilla)
-- Verbindung zu deinem Server via FTP ([Anleitung](https://zap-hosting.com/guides/de/docs/gameserver-ftpaccess/))
+- Verbindung zu deinem Server via FTP ([Anleitung](gameserver-ftpaccess.md))
 
 
 

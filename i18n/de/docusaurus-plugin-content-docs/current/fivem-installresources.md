@@ -1,20 +1,19 @@
 ---
 id: fivem-installresources
-title: Installation von Resourcen
+title: "FiveM: Installation von Ressourcen"
 description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Resourcen installieren
+sidebar_label: Ressourcen installieren
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
 
-Resourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Resourcen lässt sich das so direkt nicht umsetzen.
+Ressourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Ressourcen lässt sich das so direkt nicht umsetzen.
 
-FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Resourcen an. Eine Übersicht mit den beliebtesten Resourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
+FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Ressourcen an. Eine Übersicht mit den beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
 
+<YouTube videoId="V7us5V6KLho" title="How to Add Resources to a FiveM Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 
 ## Vorbereitung
@@ -28,12 +27,11 @@ Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem U
 :::
 
 
-
 ## Installation
 
 ### Dateien hochladen
 
-Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Resource`-Verzeichnis des Servers hochgeladen werden.
+Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Ressource`-Verzeichnis des Servers hochgeladen werden.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/85a508ac-fd43-401f-9fc6-cffd538e34f0)
 
@@ -46,7 +44,7 @@ Die Verzeichnisstruktur sieht normalerweise wie folgt aus:
 Die Verzeichnisstruktur des FiveM TxAdmin Gameservers unterscheidet sich von den übrigen FiveM Produkten, da diese ein eigenes Template-Verzeichnis enthalten. Die Ressourcen befinden sich ebenfalls im Template-Verzeichnis.
 :::
 
-Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](https://zap-hosting.com/guides/docs/fivem-sql-file-import), um mehr darüber zu erfahren, wie du dies tun kannst.
+Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](fivem-sql-file-import.md), um mehr darüber zu erfahren, wie du dies tun kannst.
 
 ### Aktivierung
 

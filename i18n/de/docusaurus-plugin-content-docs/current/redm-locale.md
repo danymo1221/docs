@@ -1,6 +1,6 @@
 ---
 id: redm-locale
-title: Sprache / Standort (Flagge) ändern
+title: "RedM: Sprache / Standort (Flagge) ändern"
 description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem FiveM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache / Standort (Flagge)
 ---
@@ -47,7 +47,7 @@ Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Lände
 | Singapur       | Englisch       | en_SG  |
 
 :::caution 
-Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird!
+Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Ressourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird!
  :::
 
 

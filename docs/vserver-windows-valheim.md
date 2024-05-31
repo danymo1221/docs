@@ -1,28 +1,18 @@
 ---
 id: vserver-windows-valheim
-title: Valheim Dedicated Server Setup
+title: "VPS: Valheim Dedicated Server Setup"
 description: Information about setting up a Valheim Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
-sidebar_label: Valheim Dedicated Server Setup
-
+sidebar_label: Valheim
 ---
 
-
-Got a Windows VPS or root server and want to install game servers on it? For example a Valheim Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NWspZFmexqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
+Got a VPS, root server or dedicated server and want to install game servers on it? For example an Valheim Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-Connect to your VPS or root server via RDP to set up your Valheim Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
-
-
+<YouTube videoId="Trs9Ysxa1gc" title="Valehim Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Preparation
-
 For the setup of a Valheim server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the dedicated server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
 Following this, the download takes place. This will contain the **steamcmd.zip** file, which must first be unpacked. It is recommended to create a separate folder, where the file can be unzipped. You should see the **steamcmd.exe** as a result. Execute it and wait until the installation process has been completed.

@@ -1,6 +1,6 @@
 ---
 id: palworld-server-savegames
-title: Palworld Savegames verwalten
+title: "Palworld: Palworld Savegames verwalten"
 description: Informationen über die Verwaltung von Savegames auf deinem Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegames verwalten
 ---
@@ -11,14 +11,14 @@ In dieser Anleitung erfahren wir, wie du deine Palworld Gamesaves auf deinem Gam
 
 Um auf die Dateien deines Servers zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Werkzeuge->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unseren [FTP File Access Guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Werkzeuge->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unseren [FTP File Access Anleitung](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
 
 
 ## Backup Savegame
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Du findest sie in den Widnows AppData, und zwar in folgendem Pfad:
+Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Du findest sie in den Windows AppData, und zwar in folgendem Pfad:
 ```
 ../AppData/Local/Pal/Saved/SaveGames
 ```
@@ -46,7 +46,7 @@ An diesem Ort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen
 
 ### Automatische Backups
 
-Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserem [Automatic Server Backup guide](gameserver-backups.md) zu diesem Thema.
+Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Automatische Server Backups Anleitung](gameserver-backups.md) zu diesem Thema.
 
 ## Savegame hochladen
 

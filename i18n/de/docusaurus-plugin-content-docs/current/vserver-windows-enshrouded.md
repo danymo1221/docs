@@ -1,17 +1,18 @@
 ---
 id: vserver-windows-enshrouded
-title: Enshrouded Dedicated Dedicated Server Einrichtung
+title: "vServer: Enshrouded Dedicated Server Einrichtung"
 description: Informationen zur Einrichtung eines Enshrouded Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
-sidebar_label: Enshrouded Dedicated Server Einrichtung
+sidebar_label: Enshrouded
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cxhqHt2DYjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Einleitung
+## Einführung
 
 Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Enshrouded Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+
+<YouTube videoId="cxhqHt2DYjQ" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 
 ## Vorbereitung
 
@@ -88,7 +89,7 @@ Du musst neue Regeln für deinen Enshrouded-Server erstellen. Klicke dazu auf di
 - TCP eingehend und ausgehend: 15636-15637
 - UDP eingehend und ausgehend: 15636-15637
 
-Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unsere [Windows Port Weiterleitung Anleitung](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>
@@ -96,7 +97,7 @@ Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), 
 Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du deinen Charakter im Hauptmenü auswählst, zum Reiter **Spiele finden** gehst und auf **Server hinzufügen** drückst. Hier gibst du die IP-Adresse deines Servers sowie den Port (standardmäßig 15636) und dein Server-Passwort ein (falls festgelegt, sonst leer lassen).
 
 :::tip
-Sieh dir unsere [Enshrouded Server Configuration guide](enshrouded-configuration.md) an, wenn du ein Passwort für deinen Server aktivieren und die Einstellungen anpassen möchtest.
+Sieh dir unsere [Enshrouded Server Konfiguration Anleitung](enshrouded-configuration.md) an, wenn du ein Passwort für deinen Server aktivieren und die Einstellungen anpassen möchtest.
 :::
 
 Wir empfehlen, dass du deine Servereinstellungen zuerst über den folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
@@ -110,7 +111,7 @@ Wechsle zunächst in das folgende Verzeichnis:
 ..EnshroudedServer/ (Stammverzeichnis)
 ```
 
-Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Datei kannst du ein paar Parameter für deinen Server konfigurieren. In unserem [Enshrouded Server Configuration guide](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
+Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Datei kannst du ein paar Parameter für deinen Server konfigurieren. In unserer [Enshrouded Server Konfiguration Anleitung](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

@@ -1,11 +1,11 @@
 ---
 id: openmp-server-commands
-title: Open.mp Server-Befehle
+title: "Open.mp: Open.mp Server-Befehle"
 description: Informationen über nützliche Befehle für das Open.mp-Spiel von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Befehle
 ---
 
-Open.mp-Server verfügen über eine Reihe nützlicher integrierter Serverbefehle, die du im Spiel und über deine Serverkonsole verwenden kannst. In diesem Leitfaden werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
+Open.mp-Server verfügen über eine Reihe nützlicher integrierter Serverbefehle, die du im Spiel und über deine Serverkonsole verwenden kannst. In dieser Anleitung werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
 
 ## Zugriff einrichten (RCON)
 
@@ -25,12 +25,12 @@ Vergewissere dich, dass du bei der Konfigration ein RCON-Passwort eingerichtet h
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Wenn dein Server das nächste Mal hochfährt, sollte RCON jetzt zugänglich und bereit sein.
 
 :::tip
-Wenn du mehr über RCON erfahren möchtest, kannst du unseren [Open.mp RCON Leitfaden](openmp-rcon.md) benutzen, der weitere Details enthält.
+Wenn du mehr über RCON erfahren möchtest, kannst du unsere [Open.mp RCON Anleitung](openmp-rcon.md) benutzen, der weitere Details enthält.
 :::
 
 ## Verfügbare Befehle
 
-In der folgenden Tabelle findest du eine Reihe wichtiger Serverbefehle für Open.mp sowie Beispiele und Beschreibungen, die du entweder im Spiel, über die Serverkonsole oder über ein RCON-Programm verwenden kannst. Wenn du alle aktuellen Befehle sehen möchtest, empfehlen wir dir die Lektüre des [open.mp's controlling a server guide](https://www.open.mp/docs/server/ControllingServer), in dem alle derzeit verfügbaren Serverbefehle vorgestellt werden.
+In der folgenden Tabelle findest du eine Reihe wichtiger Serverbefehle für Open.mp sowie Beispiele und Beschreibungen, die du entweder im Spiel, über die Serverkonsole oder über ein RCON-Programm verwenden kannst. Wenn du alle aktuellen Befehle sehen möchtest, empfehlen wir dir die [open.mp's controlling a server Anleitung](https://www.open.mp/docs/server/ControllingServer), in dem alle derzeit verfügbaren Serverbefehle vorgestellt werden.
 
 :::tip
 Wenn du Befehle direkt über die Konsole oder über ein RCON-Programm ausführst, musst du das Präfix `/rcon` nicht verwenden. Du musst dies nur tun, wenn du die Befehle **im Spiel** ausführst.

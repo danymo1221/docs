@@ -1,6 +1,6 @@
 ---
 id: dedicated-proxmox
-title: Installation of Proxmox VE
+title: "Dedicated Server: Installation of Proxmox VE"
 description: Information on how to install Proxmox Virtual Environment on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Proxmox
 ---
@@ -33,7 +33,7 @@ Finally you must restart your dedicated server in order to be able to boot from 
 
 
 ### Mount ISO via the iLO
-Prepare your Proxmox VE ISO by heading over to the [Proxmox download site](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso). You must then upload and mount it to your dedicated server by following the [iLO guide](https://zap-hosting.com/guides/docs/dedicated-ilo/) & [Own ISO guide](https://zap-hosting.com/guides/docs/dedicated-iso/) which show how to login and upload your custom ISO.
+Prepare your Proxmox VE ISO by heading over to the [Proxmox download site](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso). You must then upload and mount it to your dedicated server by following the [iLO guide](dedicated-ilo.md) & [Own ISO guide](dedicated-iso.md) which show how to login and upload your custom ISO.
 
 
 
